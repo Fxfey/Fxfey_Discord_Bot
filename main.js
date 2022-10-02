@@ -323,24 +323,6 @@ client.on("messageCreate", async (message) => {
         console.log(error);
         });
 
-        // var config5 = {
-        //   method: 'get',
-        //   url: ` https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/9AKr0fdumxpN4UsJQGi_PYcjLEh4brEen3OVg76l04SVF_rE?api_key=RGAPI-985a1414-3868-40db-ab18-51d61ae75f63`,
-        //   headers: { }
-        //   };
-  
-        //   axios(config5)
-        //   .then(function (response5) {
-
-        //       var logName3 = JSON.stringify(response5.data[1]); 
-
-        //       message.channel.send(`| \n Name : ${logName3.summonerName} \n Rank : ${logName3.tier} ${logName3.rank} \n Wins : ${logName3.wins} Loses : ${logName3.losses}`);
-
-        //   })
-        //   .catch(function (error) {
-        //   console.log(error);
-        //   });
-
     }
 });
 
